@@ -1,0 +1,21 @@
+@media print {
+}
+@media screen and (min-height: 820px) {
+    .mobileApp-phone {
+        margin-top: -402px
+    }
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1000px) {
+}
+@media screen and (max-width: 800px) {
+}
+@media screen and (max-width: 800px) {
+}
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
+}
+@media (max-width: 500px) {
+}
+@media print {
+}
