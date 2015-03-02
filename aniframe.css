@@ -1,0 +1,47 @@
+/* 閃爍 */
+@-webkit-keyframes shanshuo {
+  0% { 
+  	opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes suofang {
+  0% { 
+  	-webkit-transform:scale(1,1); 
+  }
+  50% {
+    -webkit-transform:scale(1.5,1.5); 
+  }
+  100% {
+    -webkit-transform:scale(1,1); 
+  }
+}
+@-webkit-keyframes show {
+  0% { 
+  	opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes hide {
+  0% { 
+  	opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}  
+/*
+eg:
+-webkit-animation: suofang linear forwards 1s 0s 1000 ;
+-webkit-animation: bg0250 ease-in forwards 0.5s 5s 1, bg50280 ease-in forwards 0.5s 10s 1 ;
+*/
