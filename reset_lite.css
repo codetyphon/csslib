@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+
+.clear:after {
+    clear: both;
+}
+
+.clear {
+    *zoom: 1;
+}
+
+body {
+    background-color: #eee;
+}
+
+body, input, select, button, textarea {
+    font: normal 84%/1.2 "Questrial", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+input, select, button, textarea {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #0e90d2;
+}
+
+.wrapper {
+    width: 80%;
+    padding: 30px;
+    min-width: 370px;
+    max-width: 700px;
+    margin: 40px auto 10px;
+    background-color: #fff;
+}
