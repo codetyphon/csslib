@@ -1,0 +1,7 @@
+.cover{
+  width: 60px;
+  height: 60px;
+  border: 480px solid rgba(0, 0, 0, .45);
+  border-radius: 50%;
+  position: absolute;
+}
