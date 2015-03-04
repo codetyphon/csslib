@@ -42,6 +42,7 @@
 }  
 /*
 eg:
--webkit-animation: suofang linear forwards 1s 0s 1000 ;
--webkit-animation: bg0250 ease-in forwards 0.5s 5s 1, bg50280 ease-in forwards 0.5s 10s 1 ;
+-webkit-animation: suofang linear forwards 1s 0s 1000 ;//線性動畫
+-webkit-animation: bg0250 ease-in forwards 0.5s 5s 1, bg50280 ease-in forwards 0.5s 10s 1 ;//時間軸動畫
+-webkit-animation: run 1s step-start infinite; //定格動畫
 */
