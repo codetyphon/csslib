@@ -23,6 +23,10 @@ ul li {
 
 body {
     background-color: #eee;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Tahoma, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,"Helvetica Neue",sans-serif,Georgia;/* 採用襯線字體 */
+  
+      /* 消除鋸齒 */
+    -webkit-font-smoothing: subpixel-antialiased;
 }
 
 body, input, select, button, textarea {
