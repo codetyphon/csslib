@@ -50,3 +50,39 @@ a {
     margin: 40px auto 10px;
     background-color: #fff;
 }
+/* 图混 */
+.PTGA{margin:10px auto}
+.PTGA .picL{width:100px;float:left;}
+.PTGA .picL img{border:1px #EDEDED solid;}
+.PTGA .picL span{background:#EDEDED;float:left;width:100px;line-height:22px}
+.PTGA .picL a{color:#333;}
+.PTGA .picL a:hover{color:#c00;}
+.PTGA .list12{_width /*IE5.5*/:auto;margin:6px auto 0;float:right;}
+.PTGA .list14{_width /*IE5.5*/:auto;margin:0 auto;float:right;}
+
+/* 颜色 */
+.red,.red a{color:#c00!important;text-decoration:none;}
+.red a:hover{color:#c00!important;text-decoration:underline;}
+.blue,.blue a{color:#2a52c7!important;text-decoration:none}
+.blue a:hover{color:#2a52c7!important;text-decoration:underline}
+.black,.black a{color:#000!important;text-decoration:none}
+.black a:hover{color:#000!important;text-decoration:underline}
+.white{background:#fff;}
+
+/* 通用属性 */
+.left{float:left;}
+.right{float:right;}
+
+.clear{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0}/*ie and firefox1.5 updata */
+
+/*文字对齐方式*/
+.txtLeft{text-align:left}
+.txtRight{text-align:right}
+.txtCenter{text-align:center}
+
+/*常用方法*/
+.show{display:block}
+.hidden{display:none}
+.hand{cursor:pointer;}
+.fontArial{font-family:'Arial';}
+.b{font-weight:bold;}
