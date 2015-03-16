@@ -40,6 +40,12 @@
     opacity: 0;
   }
 }  
+.animate {
+    animation-play-state: paused;
+}
+.active .animate {
+    animation-play-state: running;
+}
 /*
 eg:
 -webkit-animation: suofang linear forwards 1s 0s 1000 ;//線性動畫
