@@ -269,12 +269,12 @@ figcaption {
     -webkit-nbsp-mode: normal;
 }
 
-@media screen and (max-device-width: 1000px) {
+
+@media (max-width: 1200px) {
     html {
         -webkit-text-size-adjust: none;
     }
 }
-
 @media print {
     h2, h3 {
         page-break-after: avoid;
